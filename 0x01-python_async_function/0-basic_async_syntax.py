@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""An asynchronous coroutine implementation """
+'''An asynchronous coroutine implementation '''
 
 
 import asyncio
