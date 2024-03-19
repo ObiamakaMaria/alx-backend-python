@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-''' An implementation of asynchronous programming '''
+'''Asynchronous Comprehension Implementation'''
 
 
 import asyncio
@@ -11,5 +11,5 @@ async_generator = __import__('0-async_generator').async_generator
 
 
 async def async_comprehension() -> List[float]:
-    '''An  asynchronous generator function'''
-    return [val async for val in async_generator()]
+    '''An asynchronous generator function'''
+    return [val async for val in async_generator()]i
