@@ -4,7 +4,7 @@
 
 import unittest
 from unittest.mock import patch, PropertyMock
-from parameterized import parameterized, parameterized_class  # type: ignore
+from parameterized import parameterized, parameterized_class
 from fixtures import TEST_PAYLOAD
 GithubOrgClient = __import__("client").GithubOrgClient
 
